@@ -1,6 +1,12 @@
-thumbnail: thumbnail.png
+thumbnail: thumbnails/readmethumb.png
 tags:
   domains:
-    - sampledomain
+    - meteorology
+    - weather
+    - atmosphere
   packages:
-    - samplepackage
+    - matplotlib
+    - scipy
+    - scikit
+  events:
+    - Cook-off 2026
