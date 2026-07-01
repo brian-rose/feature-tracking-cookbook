@@ -4,7 +4,7 @@
 
 [![nightly-build](https://github.com/ProjectPythia/feature-tracking-cookbook/actions/workflows/nightly-build.yaml/badge.svg)](https://github.com/ProjectPythia/feature-tracking-cookbook/actions/workflows/nightly-build.yaml)
 [![Binder](https://binder.projectpythia.org/badge_logo.svg)](https://binder.projectpythia.org/v2/gh/ProjectPythia/feature-tracking-cookbook/main?labpath=notebooks)
-[![DOI](https://zenodo.org/badge/1270409068.svg)](https://zenodo.org/badge/latestdoi/1270409068)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20753356.svg)](https://doi.org/10.5281/zenodo.20753356)
 
 This Project Pythia Cookbook covers how to identify and track meteorological features across space and time using **three methods**: `Matplotlib, SciPy, and Scikit.`
 
