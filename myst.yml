@@ -8,6 +8,7 @@ project:
   doi: https://doi.org/10.5281/zenodo.20753356
   bibliography:
     - references.bib
+  abstract: "Identifying and tracking meterological features across space and time using three methods: Matplotlib, SciPy, and Scikit."
   authors:
     - name: Matthew Lynne
       affiliation: UAlbany
@@ -36,6 +37,8 @@ project:
     - brian-rose
   exports:
     - format: cff
+      article: README.md
+      output: CITATION.cff
   copyright: '2026'
   toc:
     - file: README.md
