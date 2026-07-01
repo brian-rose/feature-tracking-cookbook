@@ -4,14 +4,14 @@
 
 [![nightly-build](https://github.com/ProjectPythia/feature-tracking-cookbook/actions/workflows/nightly-build.yaml/badge.svg)](https://github.com/ProjectPythia/feature-tracking-cookbook/actions/workflows/nightly-build.yaml)
 [![Binder](https://binder.projectpythia.org/badge_logo.svg)](https://binder.projectpythia.org/v2/gh/ProjectPythia/feature-tracking-cookbook/main?labpath=notebooks)
-[![DOI](https://zenodo.org/badge/1270409068.svg)](https://zenodo.org/badge/latestdoi/1270409068)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20753356.svg)](https://doi.org/10.5281/zenodo.20753356)
 
-This Project Pythia Cookbook covers how to identify and track meteorological features across space and time using **three methods**: `Matplotlib, SciPy, and Scikit.`
+This Project Pythia Cookbook covers how to identify and track meteorological features across space and time using **three methods**: `Matplotlib`, `SciPy`, and `Scikit.`
 
 
 ## Motivation
 
-Atmospheric phenomena of interest are almost always dynamically evolving and rapidly changing. Examples include `thunderstorm complexes, tropical/extratropical cyclones, or precipitation shields.` **Students or researchers** studying these features must first be able to **identify and track** them through concurrent time steps before any further analysis.  
+Atmospheric phenomena of interest are almost always dynamically evolving and rapidly changing. Examples include _thunderstorm complexes_, _tropical/extratropical cyclones_, or _precipitation shields_. **Students or researchers** studying these features must first be able to **identify and track** them through concurrent time steps before any further analysis.  
 
 Listed below is the workflow for identifying and **tracking 2D geophysical features** in gridded data.
 
@@ -92,24 +92,22 @@ executable book chapter.
 
 If you are interested in running this material locally on your computer, you will need to follow this workflow:
 
-(Replace "cookbook-example" with the title of your cookbooks)
-
-1. Clone the `https://github.com/ProjectPythia/cookbook-example` repository:
+1. Clone the [feature-tracking-cookbook](https://github.com/ProjectPythia/feature-tracking-cookbook)> repository:
 
    ```bash
-    git clone https://github.com/ProjectPythia/cookbook-example.git
+    git clone https://github.com/ProjectPythia/feature-tracking-cookbook.git
    ```
 
-1. Move into the `cookbook-example` directory
+1. Move into the `feature-tracking-cookbook` directory
    ```bash
-   cd cookbook-example
+   cd feature-tracking-cookbook
    ```
 1. Create and activate your conda environment from the `environment.yml` file
    ```bash
    conda env create -f environment.yml
-   conda activate cookbook-example
+   conda activate feature-tracking-dev
    ```
-1. Move into the `notebooks` directory and start up Jupyterlab
+1. Move into the `notebooks` directory and start up [Jupyterlab](https://foundations.projectpythia.org/foundations/jupyterlab/)
    ```bash
    cd notebooks/
    jupyter lab
